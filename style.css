@@ -1,0 +1,129 @@
+body > header { /* NEW */
+    background-color: black; /* NEW */
+    color: white; /* NEW */
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-around;
+
+    } /* NEW */
+    
+body > header > nav > ul { /* NEW */
+        list-style: none; /* NEW */
+        display: flex;
+        text-decoration: none;
+} /* NEW */
+body > header > nav > ul > a { /* NEW */
+        color:white; /* NEW */
+} /* NEW */
+           
+body > footer { /* NEW */
+     background-color: black; /* NEW */
+     color: white; /* NEW */
+     display: flex;
+     height: 25vh;
+     align-items: center;
+     justify-content: space-around;
+} /* NEW */
+    
+body {
+    margin: 1; /* NEW */
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: left;
+    justify-content: space-around;    
+}
+
+body > footer > p { /* NEW */
+        padding: 16px; /* NEW */
+        color: white; /* NEW */
+        text-align: center; /* NEW */
+    }
+
+div {
+    width: value;
+    height: value;
+    margin: value-top value-right value-bottom value-left;
+    padding: value-top value-right value-bottom value-left;
+}
+
+
+body > header > nav > ul > li {
+    padding: 8px;
+    margin: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+body > footer > nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+#logo { /* NEW */
+    margin: 8px;
+    padding: 8px;
+    font-family: "Fredoka One", sans-serif; /* NEW */
+    box-shadow: 5px 5px 5px 5px lightblue;
+    width: 25%;
+    }
+
+
+body > main article { /* NEW */
+    margin: auto; /* NEW */
+    width: 80%; /* NEW */
+    }
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#main-content > div {
+    width: 80%;
+}
+
+p {
+    font-size: 2vw;
+    }
+h1 {
+    font-size: 4vw;
+    }
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    border-radius: 5%;
+    align-items: center;
+}
+
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+    }
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 30 px;
+    color: white; /* NEW */
+    text-decoration: none;
+}
+
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color: white; /* NEW */
+}
+

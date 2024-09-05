@@ -1,0 +1,247 @@
+touch index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Amazing Space Website</title>
+</head>
+<hr>
+<body>
+  <header>
+    <h1 id="logo">Space Blog</h1>
+    <nav>
+      <ul id="nav-ul">
+        <li><a href="/home" class="navbutton">Home</a></li>
+        <li><a href="/about" class="navbutton">About</a></li>
+        <li><a href="/contact" class="navbutton">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="main-content">
+      <aside>
+        <section>
+          <h2>Filter by Month</h2>
+          <nav>
+            <ul>
+              <li><a href="/blog/month/january">January</a></li>
+              <li><a href="/blog/month/february">February</a></li>
+              <li><a href="/blog/month/march">March</a></li>
+              <li><a href="/blog/month/april">April</a></li>
+              <li><a href="/blog/month/may">May</a></li>
+              <li><a href="/blog/month/june">June</a></li>
+              <li><a href="/blog/month/july">July</a></li>
+              <li><a href="/blog/month/august">August</a></li>
+              <li><a href="/blog/month/september">September</a></li>
+              <li><a href="/blog/month/october">October</a></li>
+              <li><a href="/blog/month/november">November</a></li>
+              <li><a href="/blog/month/December">December</a></li>
+            </ul>
+          </nav>
+        </section>
+        <hr>
+        <section>
+          <h2>Filter by Category</h2>
+          <nav>
+            <ul>
+              <li><a href="/blog/black holes">Black holes</a></li>
+              <li><a href="/blog/NeutronStars">Neutron stars</a></li>
+              <li><a href="/blog/Stars">Stars</a></li>
+              <li><a href="/blog/Quasars">Quasars</a></li>
+              <li><a href="/blog/Galaxies">Galaxies</a></li>
+            </ul>
+          </nav>
+        </section>
+        <hr>
+      </aside>
+      <div>
+        <article>
+          <hr>
+          <hgroup>
+            <h2>Five Amazing Astronomical Objects</h2>
+            <h3>Read time: 3 minutes</h3>
+          </hgroup>
+          <main>
+            <p>
+              A black hole is a region of spacetime where gravity is so strong that nothing can escape, not even light. Black holes are among the strangest, most extreme objects in the Universe.
+              <img src="black hole.jpeg", alt="Black hole" width="200" height="200">
+            </p>
+            <p>
+              Neutron stars are incredibly dense astronomical objects that are the remnants of massive stars. As the name suggest, they are largely made of neutrons tightly packed together. Their magnetic fields are so strong that atoms in their influence become distorted.
+              <img src="Neutron_star.jpg", alt="Neutron star" width="200" height="200">
+            </p>
+            <p>
+              A star is a luminous spheroid, held together by its own gravity and composed of plasma. They are powered by nuclear fusion. In order of increasing temperature, stars can be red, orange, yellow, white, blue-white, or blue. The Sun is an example of a yellow, main-sequence star near the middle of it's life cycle.
+              <img src="star.jpeg", alt="Star" width="200" height="200">
+            </p>
+            <p>
+              A quasar (quasi-stellar object) is an extremely bright and distant stellar object powered by a supermassive black hole at its centre. Quasars are among the most luminous objects in the universe, outshining entire galaxies, including their own. Research has shown that quasar activity was much more common in the distant past, with peak activity being around 10 billion years ago.
+              <img src="quasar.jpeg", alt="Quasar" width="200" height="200">
+            </p>
+            <p>
+              Galaxies are islands of stars, stellar remnants, dust, gas, and dark matter held together by gravity. Most galaxies have a supermassive black hole at their centre. Galaxies can be many different shapes; for example, irregular, elliptical, spiral, barred spiral, or ring.
+              <img src="galaxy.jpg", alt="Galaxy" width="200" height="200">
+            </p>
+          </main>
+          <footer>
+            Author: J. M. Canavan
+            <img src="helmet.png", alt="Stormtrooper helmet" width="100" height="100">
+          </footer>
+        </article>
+      </div>
+    </div>
+  </main>
+<hr>
+<h2>Sign up to learn more about space!</h2>
+<form action="" method="POST">
+    <label for="first_name">First Name:</label><br>
+    <input type="text" id="first_name" name="first_name" required><br><br>
+    <label for="last_name">Last Name:</label><br>
+    <input type="text" id="last_name" name="last_name" required><br><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+    <label for="favourite astronomical object">Favourite astronomical object:</label><br>
+    <input type="radio" id="black hole" name="favourite astronomical object" value="black hole">
+    <label for="black hole">Black hole</label><br>
+    <input type="radio" id="neutron star" name="favourite astronomical object" value="neutron star">
+    <label for="neutron star">Neutron star</label><br>
+    <input type="radio" id="star" name="favourite astronomical object" value="star">
+    <label for="star">Star</label><br><br>
+    <input type="radio" id="quasar" name="favourite astronomical object" value="quasar">
+    <label for="quasar">Quasar</label><br><br>
+    <input type="radio" id="galaxy" name="favourite astronomical object" value="galaxy">
+    <label for="galaxy">Galaxy</label><br><br>
+    <label for="country">Country:</label><br>
+    <select id="country" name="country">
+        <option value="albania">Albania</option>
+        <option value="algeria">Algeria</option>
+        <option value="andorra">Andorra</option>
+        <option value="angola">Angola</option>
+        <option value="antigua_and_barbuda">Antigua and Barbuda</option>
+        <option value="argentina">Argentina</option>
+        <option value="armenia">Armenia</option>
+        <option value="australia">Australia</option>
+        <option value="austria">Austria</option>
+        <option value="azerbaijan">Azerbaijan</option>
+        <option value="bahamas">Bahamas</option>
+        <option value="bahrain">Bahrain</option>
+        <option value="bangladesh">Bangladesh</option>
+        <option value="barbados">Barbados</option>
+        <option value="belarus">Belarus</option>
+        <option value="belgium">Belgium</option>
+        <option value="belize">Belize</option>
+        <option value="benin">Benin</option>
+        <option value="bhutan">Bhutan</option>
+        <option value="bolivia">Bolivia</option>
+        <option value="bosnia and herzegovina">Bosnia and Herzegovina</option>
+        <option value="botswana">Botswana</option>
+        <option value="brazil">Brazil</option>
+        <option value="brunei">Brunei</option>
+        <option value="bulgaria">Bulgaria</option>
+        <option value="burkina faso">Burkina Faso</option>
+        <option value="burundi">Burundi</option>
+        <option value="cambodia">Cambodia</option>
+        <option value="canada">Canada</option>
+        <option value="chile">Chile</option>
+        <option value="cyprus">Cyprus</option>
+        <option value="dominica">Dominica</option>
+        <option value="dominican republic">Dominican Republic</option>
+        <option value="egypt">Egypt</option>
+        <option value="england">England</option>
+        <option value="eswatini">Eswatini</option>
+        <option value="france">France</option>
+        <option value="finland">Finland</option>
+        <option value="gabon">Gabon</option>
+        <option value="georgia">Georgia</option>
+        <option value="germany">Germany</option>
+        <option value="ghana">Ghana</option>
+        <option value="gibraltar">Gibraltar</option>
+        <option value="greece">Greece</option>
+        <option value="grenada">Grenada</option>
+        <option value="guernsey">Guernsey</option>
+        <option value="honduras">Honduras</option>
+        <option value="hungary">Hungary</option>
+        <option value="isle_of_man">Isle of Man</option>
+        <option value="italy">Italy</option>
+        <option value="japan">Japan</option>
+        <option value="jersey">Jersey</option>
+        <option value="jordan">Jordan</option>
+        <option value="kiribati">Kiribati</option>
+        <option value="madagascar">Madagascar</option>
+        <option value="malta">Malta</option>
+        <option value="mauritania">Mauritania</option>
+        <option value="mauritius">Mauritius</option>
+        <option value="nepal">Nepal</option>
+        <option value="new_zealand">New Zealand</option>
+        <option value="niger">Niger</option>
+        <option value="nigeria">Nigeria</option>
+        <option value="northern_ireland">Northern Ireland</option>
+        <option value="oman">Oman</option>
+        <option value="palau">Palau</option>
+        <option value="paraguay">Paraguay</option>
+        <option value="portugal">Portugal</option>
+        <option value="republic_of_ireland">Republic of Ireland</option>
+        <option value="saint_kitts_and_nevis">Saint Kitts and Nevis</option>
+        <option value="saint_lucia">Saint Lucia</option>
+        <option value="saint_vincent_and_the_grenadines">Saint Vincent and the Grenadines</option>
+        <option value="san marino">San Marino</option>
+        <option value="scotland">Scotland</option>
+        <option value="senegal">Senegal</option>
+        <option value="seychelles">Seychelles</option>
+        <option value="singapore">Singapore</option>
+        <option value="solomon_islands">Solomon Islands</option>
+        <option value="south_africa">South Africa</option>
+        <option value="spain">Spain</option>
+        <option value="tanzania">Tanzania</option>
+        <option value="the_gambia">The Gambia</option>
+        <option value="togo">Togo</option>
+        <option value="trinidad_and_tobago">Trinidad and Tobago</option>
+        <option value="tuvalu">Tuvalu</option>
+        <option value="uruguay">Uruguay</option>
+        <option value="usa">USA</option>
+        <option value="vanuatu">Vanuatu</option>
+        <option value="venezuela">Venezuela</option>
+        <option value="wales">Wales</option>
+        <option value="zambia">Zambia</option>
+        <option value="zimbabwe">Zimbabwe</option>
+    </select><br><br>
+    <label for="bio">Biography:</label><br>
+    <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+    <input type="checkbox" id="subscribe" name="subscribe">
+    <label for="subscribe">Subscribe to newsletter</label><br><br>
+    <input type="submit" value="Send!">
+</form>
+<hr>
+<footer>
+  <h2>The Amazing Space Website</h2>
+  <div id="footer-container">
+    <section>
+      <h2>Our Site</h2>
+      <nav>
+        <ul id="footer-ul">
+          <div>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/jobs">Jobs</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </div>
+          <div>
+            <li><a href="/privacy_policy">Privacy Policy</a></li>
+            <li><a href="/terms_and_conditions">Terms & Conditions</a></li>
+            <li><a href="/Cookie_policy">Cookie Policy</a></li>
+          </div>
+        </ul>
+      </nav>
+    </section>
+  </div>
+  <h3>Last posted: 2024-09-09</h3>
+  <h4>Author: J. M. Canavan</h4>
+</footer>
+</body>
+</html>
+
